@@ -1,4 +1,4 @@
-#info bot created by negative
+#it created by negative
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
@@ -16,7 +16,7 @@ bot = telebot.TeleBot(config.token)
 def welcome(m):
     cid = m.chat.id
     markup = types.InlineKeyboardMarkup()
-    a = types.InlineKeyboardButton("Taylor Team \xE2\x9C\x8C", url="https://telegram.me/id_info_robot")
+    a = types.InlineKeyboardButton("mohamad mahdi😃\xE2\x9C\x8C", url="https://telegram.me/mohamad_mahdi_77")
     c = types.InlineKeyboardButton("Add group \xE2\x9C\x8C", url="https://telegram.me/id_info_robot?startgroup=test")
     markup.add(a, c)
     b = types.InlineKeyboardButton("Developer ID bot \xE2\x9C\x8C", url="https://telegram.me/mohamad_mahdi_77")
@@ -48,7 +48,7 @@ def id(m):      # info menu
 def c(m):
     uid = m.chat.id
     bot.send_chat_action(uid, 'typing')
-    bot.send_contact(uid, phone_number="+98", first_name="Negative")
+    bot.send_contact(uid, phone_number="+98", first_name="Mohamad")
 
 
 @bot.message_handler(commands=['about']) # mohamad mahdi
@@ -56,27 +56,10 @@ def p(m):
     uid = m.chat.id
     markup = types.InlineKeyboardMarkup()
     v = types.InlineKeyboardButton('\xF0\x9F\x91\x87 \xF0\x9F\x91\xA5 Thanks to \xF0\x9F\x91\xA5 \xF0\x9F\x91\x87', callback_data='Team')
-    a = types.InlineKeyboardButton('Negative', url='https://telegram.me/negative_officiall')
-    b = types.InlineKeyboardButton('Parham', url='https://telegram.me/UnFriendlly')
-    c = types.InlineKeyboardButton('Arsalan', url='https://telegram.me/mute_all')
-    n = types.InlineKeyboardButton('Amircc_CreeD', url='https://telegram.me/Amircc_CreeD')
-    m = types.InlineKeyboardButton('sorblack', url='https://telegram.me/sorblack')
-    k = types.InlineKeyboardButton('MrJacki', url='https://telegram.me/MrJacki')
-    j = types.InlineKeyboardButton('allwen', url='https://telegram.me/allwen')
-    o = types.InlineKeyboardButton('Randall', url='https://telegram.me/Xx_Randall_Xx')
-    p = types.InlineKeyboardButton('NeonGame', url='https://telegram.me/pokr_face')
-    y = types.InlineKeyboardButton('\xF0\x9F\x92\x8E End \xF0\x9F\x92\x8E', callback_data='Team')
-    ch = types.InlineKeyboardButton('Channel', url='https://telegram.me/idbot_channel')
-    git = types.InlineKeyboardButton('Github', url='https://github.com/taylor-team')
+   neKeyboardButton('', url=' ')
     markup.add(v)
-    markup.add(a, j)
-    markup.add(b, c)
-    markup.add(n, m)
-    markup.add(k, o, p)
-    markup.add(y)
-    markup.add(ch, git)
     bot.send_chat_action(uid, 'typing')
-    bot.send_message(uid, "Taylor Team development Telegram bot and web mastering \n\n developers : \n [negative](https://telegram.me/negative_officiall) \n [Parham](https://telegram.me/UnFriendlly)", parse_mode="Markdown")
+    bot.send_message(uid, "Taylor Team development Telegram bot and web mastering \n\n developers : \n [mohamad](https://telegram.me/mohamad_mahdi_77) \n [](https://telegram.me/)", parse_mode="Markdown")
     bot.send_photo(uid, open('taylor.jpg'), caption="@Taylor_Team", reply_markup=markup)
 
 @bot.message_handler(commands=['idbot'])
@@ -135,7 +118,7 @@ def query_text(query):
     #pic = types.InlineQueryResultPhoto('2',
                                        #'http://vip.opload.ir/vipdl/95/3/negative23/photo-2016-06-09-01-09-41.jpg',
                                        #'http://vip.opload.ir/vipdl/95/3/negative23/photo-2016-06-09-01-09-41.jpg',
-                                       #input_message_content=types.InputTextMessageContent('@Taylor_Team')
+                                       #input_message_content=types.InputTextMessageContent('@mohamad_mahdi_77)
     #gif = types.InlineQueryResultGif('2',
                                     # 'http://andrewtrimmer.com/wp-content/uploads/2014/09/Coming-Soon_Light-Bulbs_Cropped-Animation-Set_03c.gif',
                                      #'http://andrewtrimmer.com/wp-content/uploads/2014/09/Coming-Soon_Light-Bulbs_Cropped-Animation-Set_03c.gif',
